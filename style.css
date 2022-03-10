@@ -37,9 +37,11 @@ body {
     flex: 50%;
 }
 
+
 .row {
     display: flex;
 }
+
 
 .main {
     background-color: rgba(176, 243, 250, 0.92);
@@ -74,3 +76,63 @@ body {
     font-size: 22px;
 }
 
+#instruction-title {
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+#link-to-recipe {
+    font-size: 20px;
+}
+
+/* list styling */
+
+.list {
+    font-size: 20px;
+}
+
+.list ol {
+    list-style-type: lower-roman;
+}
+
+/* cooking video side */
+
+.cooking-vid {
+    padding-left: 40px;
+    padding-top: 100px;
+}
+
+.table {
+    width: 100%;
+    margin-top: 25px;
+    padding-top: 25px;
+    padding-left: 25px;
+    border: 1px solid;
+    margin-right: 25px;
+    visibility: visible;
+}
+
+.table th {
+    border: 1px solid;
+    text-align: center;
+}
+
+.table td {
+    border: 1px solid;
+    text-align: center;
+}
+
+.table th {
+    text-align: center;
+}
+
+/* ingredients page */
+
+#marketplace {
+    height: 750px;
+    width: 750px;
+}
+
+.ingredients-title {
+    text-align: center;
+}
