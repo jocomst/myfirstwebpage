@@ -1,0 +1,76 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.topnav {
+    background-color: rgba(0, 0, 255, 0.658);
+    overflow: hidden;
+  }
+
+.topnav a {
+    float: none;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+
+.sub-header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background-image: url("https://t3.ftcdn.net/jpg/02/88/18/58/360_F_288185862_OnxF9PLxdGANyweSYEmr0DYIWezzihSw.jpg");
+    color: white;
+}
+
+.column {
+    flex: 50%;
+}
+
+.row {
+    display: flex;
+}
+
+.main {
+    background-color: rgba(176, 243, 250, 0.92);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+#main-text {
+    font-size: 22px;
+}
+
+#structure-img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#history-title {
+    font-size: 30px;
+    text-align: center;
+}
+
+.more-info {
+    background-color: rgb(231, 98, 98);
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+.more-info p {
+    font-size: 22px;
+}
+
